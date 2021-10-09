@@ -1,0 +1,58 @@
+
+.ds_container {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 700px
+}
+#ds_main {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 10px; BACKGROUND: #f0f0f0; PADDING-BOTTOM: 10px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #ccc 1px solid;FONT: 10px normal Arial, Helvetica, sans-serif; 
+}
+
+.ds_main_image {
+	BACKGROUND: #333; FLOAT: left; OVERFLOW: hidden; WIDTH: 400px; COLOR: #fff; POSITION: relative; HEIGHT: 295px
+}
+.ds_main_image H2 {
+	font-family:Arial,Helvetica,sans-serif; COLOR: #fff; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-WEIGHT: normal; FONT-SIZE: 1.8em; PADDING-BOTTOM: 1px; MARGIN: 0px 0px 5px; PADDING-TOP: 10px
+}
+.ds_main_image P {
+	font-family:Arial,Helvetica,sans-serif; COLOR: #fff;  BORDER-left: #000 1px solid; BACKGROUND: #111; PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 1.2em; PADDING-BOTTOM: 5px; MARGIN: 0px; LINE-HEIGHT: 1.6em; PADDING-TOP: 1px
+}
+
+.ds_main_image .ds_desc {
+	DISPLAY: none; LEFT: 0px; WIDTH: 100%; BOTTOM: 0px; POSITION: absolute;
+}
+.ds_main_image .ds_block {
+	BORDER-TOP: #000 1px solid; BACKGROUND: #111; WIDTH: 100%
+}
+.ds_main_image a.ds_collapse {
+	RIGHT: 20px; BACKGROUND: url(../_ds_res/btn_collapse.gif) no-repeat left top; WIDTH: 93px; TEXT-INDENT: -99999px; POSITION: absolute; TOP: -27px; HEIGHT: 27px; CURSOR: pointer;
+}
+.ds_main_image a.ds_show {
+	BACKGROUND-POSITION: left bottom
+}
+.ds_image_thumb {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #ccc 1px solid; BACKGROUND: #f0f0f0; FLOAT: left; WIDTH: 300px
+}
+.ds_image_thumb IMG {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; BACKGROUND: #fff; FLOAT: left; PADDING-BOTTOM: 5px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid
+}
+.ds_image_thumb UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.ds_image_thumb UL LI {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 9px; BORDER-TOP: #fff 1px solid; PADDING-LEFT: 9px; BACKGROUND: url(../_ds_res/nav_a.gif) #f0f0f0 repeat-x; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px; WIDTH: 280px; PADDING-TOP: 5px; BORDER-BOTTOM: #ccc 1px solid; 
+}
+.ds_image_thumb UL LI.hover {
+	BACKGROUND: #ddd; CURSOR: pointer
+}
+.ds_image_thumb UL LI.active {
+	BACKGROUND: #fff; CURSOR: default
+}
+.ds_image_thumb UL LI H2 {
+	font-family:Arial,Helvetica,sans-serif; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 1.5em; PADDING-BOTTOM: 0px; MARGIN: 5px 0px; PADDING-TOP: 0px
+}
+.ds_image_thumb UL LI .ds_block {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN-LEFT: 10px; WIDTH: 120px; PADDING-TOP: 0px
+}
+.ds_image_thumb UL LI P {
+	DISPLAY: none
+}
+.ds_hidefield {display: none}
